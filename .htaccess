@@ -1,0 +1,4 @@
+RewriteCond %{HTTP_HOST} !^www\.(.*)$ [OR,NC]
+RewriteCond %{https} off
+#RewriteRule ^(.*)$ https://sos-group-solucoes-rapidas.000webhostapp.com/$1 [R=301,L]
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+            <?php
+                require_once '../config.php';
+                if (isset($_SESSION)) session_destroy();
+            ?>
+    </head>
+        <body>
+            <form action="validarLogin.php" method="post">
+                <h1 class="login-title">Login</h1>
+                <input type="text" class="login-input" name="email" placeholder="Email" autofocus="true"/><br><br>
+                <input type="password" class="login-input" name="password" placeholder="Senha"/><br><br>
+                <button type="submit">Login</button>
+                <p class="link">Dont't you have account? <a href="cadastrar.php">New Registration</a></p>
+          </form>
+        </body>
+    <footer>
+    </footer>
+</html>
