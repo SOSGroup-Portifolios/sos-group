@@ -1,0 +1,10 @@
+.form-control-file::-webkit-file-upload-button {
+  color: blue;
+}
+.form-control-file:hover::before {
+  /*border-color: none;*/
+  outline-style: none;
+}
+.form-control-file:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}

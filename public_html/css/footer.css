@@ -1,0 +1,38 @@
+*{
+    font-family: Century,Verdana,Franklin Gothic;
+}
+tbody{
+    color: #ffffff;
+    text-align: center;
+}
+#si{
+    color: #ffffff;
+}
+#si:hover{
+    color: #000000;
+}
+table{
+    background: #b35a00; 
+    color: #ffffff;
+    margin: 0 !important;
+}
+#titu{
+    color: #ffffff;
+    width:100%;
+}
+#fac{
+    color: #ffffff;
+    width:70px;
+}
+#wat{
+    color: #ffffff;
+    width:60px;
+}
+#maps{
+    color: #ffffff;
+    width: 65px;
+}
+#mail{
+    color: #ffffff;
+    width:60px;
+}

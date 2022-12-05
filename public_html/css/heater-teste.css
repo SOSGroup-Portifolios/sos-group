@@ -1,0 +1,318 @@
+            #ph{
+                padding: 0;
+            }
+            #potato{
+                color: #ffffff;
+            }
+            body{
+                font-family: Century,Verdana,Franklin Gothic !important;
+                background-color: #45290d !important;
+            }
+            .row{
+                width: 100%;
+                margin: 0 !important;
+            }
+            #dig{
+                position: absolute;
+                top: 140px;
+                right: 10%;
+                left: 65%;
+            }
+            #face{
+                width: 25%;
+            }
+            #whats{
+                width: 18%;
+            }
+            #gmail{
+                width: 25%;
+            }
+            #info{
+                position: absolute;
+                top: 35px;
+                left: 65%;
+                color: rgb(255, 255, 255);
+                font-size: 30px;
+            }
+            /*.gif{
+                width: 40%;
+                position: relative;
+                left: 5%;
+            }*/
+            .p{
+                font-size: 90px;
+                color: rgb(255, 255, 255);
+                text-align: center;
+                position: relative;
+            }
+            .log{
+                height: 100%;
+                position: relative;
+            }
+            .loglog{
+                width: 50%;
+                position: relative;
+            }
+            .loglog1{
+                padding: 20% !important;
+                position: relative;
+            }
+            .fack{
+                padding: 14% !important;
+            }
+            *{
+                margin:0;
+                padding:0;
+            }
+            .menu{
+                z-index: 2;
+                position: -webkit-sticky;
+                position: sticky;
+                top: 0;
+                width: 100%;
+                height: auto;
+                background-color: rgb(128, 61, 3);
+            }
+            .menu ul{
+                list-style: none;
+
+            }
+            .menu ul li{
+                width: 100%;
+                float: left;
+            }
+            .menu ul div div{
+                padding: 0px;
+            }
+            .menu a{
+                height: 150px;
+                padding: 20%;
+                display: block;
+                text-decoration: none;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                background-color: rgb(128, 61, 3);
+                color: rgb(255, 255, 255);
+            }
+            .menu a:hover{
+                background-color: rgb(169, 75, 0);
+                color: rgb(255, 255, 255);
+            }
+            .menu ul ul{
+                width: 100%;
+                position: absolute;
+                visibility: hidden;
+            }
+            .menu ul li:hover ul {
+                visibility: visible;
+                overflow: auto;
+            }
+            .menu ul ul li{
+                width: 100%;
+                float: none;
+                border-bottom: solid 1px rgb(284, 284, 284);
+            }
+            .menu ul ul li a{
+                background-color: rgba(149, 69, 0, 0.9);
+                height: auto;
+                padding: 15%;
+            }
+            label[for="bt_menu"]{
+                position: sticky;
+                padding: 5px;
+                color: #803d03;
+                text-align: center;
+                font-size: 50px;
+                cursor: pointer;
+                width: 15%;
+            }
+            label[for="bt_menu"]:hover{
+                color: #ffffff;
+                background: #803d03;
+            }
+            #bt_menu{
+                display: none;
+            }
+            label[for="bt_menu"]{
+                display: none;
+            }
+            /*1400px de media*/
+            @media(max-width:  1440px){
+                .menu a {
+                    padding: 11%;
+                    height: 100px;
+                }
+                .menu ul ul li a{
+                    padding: 10%;
+                }
+                #info{
+                    font-size: 25px;
+                }
+            }
+            @media(max-width:  1024px){
+                .menu a {
+                    padding: 21%;
+                }
+                .menu ul ul li a{
+                    padding: 10%;
+                }
+                #info{
+                    font-size: 17px;
+                    top: 40px;
+                }
+                #dig{
+                    top: 100px;
+                }
+            }
+            /*1200px de media*/
+            @media(max-width: 768px){
+                label[for="bt_menu"]{
+                    display: block;
+                    font-size: 53px !important;
+                }
+                #bt_menu:checked ~ .menu{
+                    margin-left: 0;
+                }
+                #dig{
+                    right: 0;
+                    left: 60%;
+                    top: 170px;
+                }
+                .menu{
+                    top: 9%;
+                    position: absolute;
+                    margin-left: -100%;
+                    transition: all .4s;
+                }
+                .menu a {
+                    padding: 8% !important;
+                    height: auto;
+                }
+                .loglog{
+                    width: 30%;
+                    position: relative;
+                }
+                .menu ul li{
+                    width: 100%;
+                    float: none;
+                }
+                .menu ul ul{
+                    width: 100%;
+                    position: static;
+                    overflow: hidden;
+                    max-height: 0;
+                    transition: all .4s;
+                }
+                .menu ul li:hover ul{
+                    height: auto;
+                    max-height: 440px;
+                }
+                .menu ul ul li a {
+                    padding: 3%;
+                }
+                #info{
+                    font-size: 30px;
+                    top: 40px;
+                    left: 16%;
+                }
+                .log{
+                    width: 25%;
+                }
+                .row{
+                    display: block !important;
+                    top: 100px;
+                }
+            }
+            @media(max-width: 600px){
+                #info{
+                    font-size: 25px;
+                    top: 40px;
+                    left: 16%;
+                }
+            }
+            /*600px de media*/
+            @media(max-width: 425px)
+            {
+                label[for="bt_menu"]{
+                    font-size: 36px;
+                }
+                #info{
+                    font-size: 14px;
+                    top: 35px;
+                    left: 25%;
+                }
+                #face{
+                    width: 30%;
+                }
+                #whats{
+                    width: 23%;
+                }
+                #gmail{
+                    width: 30%;
+                }
+                #dig{
+                    top: 115px;
+                    left: 67%;
+                }
+            }
+            /*400px de media*/
+            @media(max-width: 375px)
+            {
+                label[for="bt_menu"]{
+                    font-size: 37px !important;
+                }
+                .menu{
+                    top: 10%;
+                }
+                #info{
+                    font-size: 14px;
+                    top: 30px;
+                }
+                #dig{
+                    top: 110px;
+                }
+                #face{
+                    width: 30%;
+                }
+                #whats{
+                    width: 22%;
+                }
+                #gmail{
+                    width: 30%;
+                }
+                label[for="bt_menu"]{
+                    font-size: 35px;
+                }
+            }
+            /*320px de media*/
+            @media(max-width: 320px)
+            {
+                label[for="bt_menu"]{
+                    font-size: 30px;
+                }
+                .loglog{
+                    width: 30%;
+                    position: relative;
+                }
+                .menu a {
+                    padding: 5% !important;
+                    height: auto;
+                }
+                #info{
+                    font-size: 12px;
+                    top: 38px;
+                }
+                #dig{
+                    top: 103px;
+                }
+                #face{
+                    width: 30%;
+                }
+                #whats{
+                    width: 25%;
+                }
+                #gmail{
+                    width: 28%;
+                }
+            }

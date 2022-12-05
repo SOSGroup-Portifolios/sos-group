@@ -1,0 +1,91 @@
+body{
+    background: #ffffff !important;
+}
+p{
+    margin-bottom: 0;
+}
+.cor{
+    background: rgba(69, 41, 13);
+}
+.img{
+    height: 45vmin;
+    margin-left: 25px;
+}
+.row{
+    margin: 0 !important;
+}
+#ryu{
+    color: #ffffff;
+    text-decoration: none;
+    height: 700px;
+    width: 100%;
+    margin-bottom: 100px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 90px;
+}
+
+/*Media de 1024px*/
+
+@media(max-width: 1440px){
+.img{
+    height: 30vmin;
+    margin-left: 25px;
+}
+#ryu{
+    letter-spacing: 5px;
+    font-size: 90px;
+    height: 500px;
+}
+}
+@media(max-width: 1024px){
+#ryu{
+    letter-spacing: 5px;
+    font-size: 70px;
+    height: 500px;
+}
+}
+/*Media de 768px*/
+
+@media(max-width: 768px){
+.img{
+    height: 20vmin;
+    margin-left: 25px;
+}
+#ryu{
+    letter-spacing: 5px;
+    font-size: 50px;
+    height: 450px;
+}
+}
+/*Media de 425px*/
+
+@media(max-width: 425px){
+#ryu{
+    letter-spacing: 5px;
+    font-size: 25px;
+    height: 250px;
+}
+}
+/* Media de 375px */
+
+@media(max-width: 375px){
+#ryu{
+    letter-spacing: 5px;
+    font-size: 20px;
+    height: 240px;
+}
+}
+/* Media de 320px */
+
+@media(max-width: 320px){
+.img{
+    height: 15vmin;
+    margin-left: 25px;
+}
+#ryu{
+    letter-spacing: 5px;
+    font-size: 15px;
+    height: 240px;
+}
+}

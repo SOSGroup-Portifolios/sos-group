@@ -1,0 +1,191 @@
+.gif{
+    width: 40%;
+    position: absolute;
+    left: 54%;
+    top: 50%;
+    }
+#perfil{
+    top: 0px;
+    width: 50%;
+    position: relative;
+}
+#perfil1{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+.um{
+    font-size: 85px;
+    position: absolute;
+    left: 60%;
+    top: 80%;
+    color: rgb(255, 255, 255);
+    margin-right: 67%;
+}
+.echo{
+    position: relative;
+    top: -40px;
+    width: 100%;
+}
+.mama{
+    margin-top: 20px;
+    position: relative;
+    width: 45%;
+    height: 450px;
+    left: 28%;
+    word-break: break-word;
+}
+#sup{
+    margin: 0;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-align: justify;
+    text-align: center;
+    /*margin-top: 20px;*/
+    /*margin-left: 26%;*/
+    /*margin-right: 26%;*/
+    word-break: break-word;
+    
+}
+@media(max-width: 1440px){
+    .gif{
+        width: 35%;
+        top: 45%;
+    }
+    .um{
+    font-size: 65px;
+    left: 56%;
+    top: 65%;
+    }
+    #sup{
+    font-size: 30px;
+    text-align: center;
+    }
+    #perfil1{
+    left: 0%;
+    font-size: 45px;
+    }
+}
+/*Media 1200px */
+@media(max-width: 1024px)
+{
+    .gif{
+        top: 45%;
+    }
+    .um{
+        top: 70%;
+        font-size: 51px;
+    }
+    #perfil1{
+        font-size: 32px;
+    }
+    #perfil{
+        width: 100%;
+    }
+    #sup{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .mama{
+        position: relative;
+        left: 15%;
+        width: 70%;
+        height: 400px;
+    }
+}
+/*Media 1000px */
+@media(max-width: 768px)
+{
+    .gif{
+        top: 20%;
+    }
+    .echo{
+        top: -25px;
+    }
+    .um{
+        top: 30%;
+        font-size: 33px;
+    }
+    #sup{
+        font-size: 20px;
+        top: 60px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #perfil1{
+        font-size: 24px;
+    }
+    .mama{
+        top: 35px;
+        height: 330px;
+    }
+}
+@media(max-width: 600px)
+{
+    .gif{
+        top: 20%;
+    }
+    .um{
+        left: 55%;
+        top: 265px;
+        font-size: 30px;
+    }
+}
+    
+
+@media(max-width: 425px)
+{
+    .gif{
+        top: 20%;
+    }
+    .um{
+        top: 27%;
+        font-size: 20px;
+    }
+    #sup{
+        font-size: 15px;
+    }
+    #perfil{
+        top: 0px;
+    }
+    #perfil1{
+        font-size: 13px;
+        top: 0px;
+    }
+    .mama{
+        height: 150px;
+    }
+}
+
+@media(max-width: 375px)
+{
+    .gif {
+        top: 17%;
+    }
+    .um{
+        top: 25%;
+        font-size: 18px;
+    }
+    #perfil1{
+        font-size: 11px;
+    }
+}
+/*Media 320px */
+@media(max-width: 320px)
+{
+    .gif{
+        top: 20%;
+    }
+    .um{
+        top: 29%;
+        font-size: 14px;
+    }
+    #perfil1{
+        font-size: 16px;
+    }
+    .mama{
+    height: 120px;
+    }
+}

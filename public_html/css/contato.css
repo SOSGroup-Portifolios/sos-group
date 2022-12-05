@@ -1,0 +1,89 @@
+.br{
+    border: solid #ffffff 10px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+.img{
+    width: 15%;
+}
+#word{
+    color: white;
+    position: relative;
+    left: 13%;
+    font-size: 21px;
+    /*margin-right: 1000px;*/
+}
+.par{
+    margin: 0;
+    color: #ffffff;
+    font-size: 52px;
+    text-align: center;
+}
+@media(max-width: 1440px)
+{
+    #word{
+        left: 1%;
+        font-size: 20px;
+    }
+}
+/*Media 1200px */
+@media(max-width: 1024px)
+{
+    #word{
+        left: 2%;
+        font-size: 17px;
+    }
+}
+/*Media 1000px */
+@media(max-width: 768px)
+{
+    #word{
+        font-size: 18px;
+    }
+    .par{
+        font-size: 35px;
+    }
+}
+@media(max-width: 600px)
+{
+    #word{
+        font-size: 14px;
+    }
+    .par{
+        font-size: 30px;
+    }
+}
+    
+
+@media(max-width: 425px)
+{
+    #word{
+        font-size: 15px;
+    }
+    .par{
+        font-size: 20px;
+    }
+    .img{
+    width: 14%;
+    }
+    .br{
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+}
+
+@media(max-width: 375px)
+{
+    #word{
+        font-size: 13px;
+    }
+}
+/*Media 320px */
+@media(max-width: 320px)
+{
+    #word{
+        font-size: 11px;
+    }
+}
